@@ -1,0 +1,13 @@
+file_format: "1"
+id: pinkie4
+name: pinkie4
+type: shield
+url: https://github.com/MakotoKurauchi/pinkie4
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - pinkie4_left
+  - pinkie4_right
