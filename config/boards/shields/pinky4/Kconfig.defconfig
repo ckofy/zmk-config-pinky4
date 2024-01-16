@@ -1,17 +1,17 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if SHIELD_pinkie4_LEFT
+if SHIELD_pinky4_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "pinkie4"
+    default "pinky4"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
 
-if SHIELD_pinkie4_LEFT || SHIELD_pinkie4_RIGHT
+if SHIELD_pinky4_LEFT || SHIELD_pinky4_RIGHT
 
 config ZMK_SPLIT
     default y
