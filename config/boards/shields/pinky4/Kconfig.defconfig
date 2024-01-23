@@ -4,7 +4,7 @@
 if SHIELD_pinky4_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "pinky4"
+    default "Pinky4"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
